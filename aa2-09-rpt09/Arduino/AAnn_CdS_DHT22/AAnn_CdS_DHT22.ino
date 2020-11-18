@@ -29,7 +29,7 @@ void loop() {
     return;
   }
   else {    
-    Serial.print("AA09, AA12");
+    //Serial.print("AA09, AA12 ");
     Serial.print(temp,1);  // temperature, float
     Serial.print(",");
     Serial.print(humi,1);  // humidity, float
